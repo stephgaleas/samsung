@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i');
+body{
+	font-family:  'Montserrat', sans-serif;
+	font-size: 14px;
+	color: #000000;
+}
+header{
+	padding: 20px 0px;
+}
+.boton{
+	position: relative;
+}	
+.productodescripcion{
+	align-content: center;
+	padding: 100px 0px 0px;
+}
+h2{
+	font-size: 60px;
+	font-weight: 600; 
+	line-height: 60px;
+}
+.descripcion{
+	font-size: 20px;
+	font-weight: 400;
+}
+.buttongris{
+	text-transform: uppercase;
+	color: #000000;
+	border: 2px solid #000;
+	border-radius: 5px;
+	background-color: #e6e6e6;
+	
+}
+.button{
+	text-transform: uppercase;
+	color: #000000;
+	border: 2px solid #000;
+	border-radius: 5px;
+}
+.unpacked{
+	background-color: #000000;
+	color: #FFFFFF;
+	
+}
+.buttonnegro{
+	text-transform: uppercase;
+	background-color: #000000;
+	color: #FFFFFF;
+	border: 2px solid #fff;
+	border-radius: 5px;
+}
+h4{
+	font-weight: 600;
+	color: #363636;
+	
+}
+.mapadelsitio{
+	padding: 40px 0px;
+	background-color: #e6e6e6;
+}
+.copyright{
+	padding:7px 0px 0px;
+	background-color: #e6e6e6;
+	color: #363636;
+}
+h5{
+	font-weight: 600;
+	text-transform: uppercase;
+}
+.disclaimerweb{
+	font-weight: 300;
+	font-size: 12px;
+}
+.fondosections{
+	background-color: #e6e6e6;
+}
+.footerlist{
+	font-weight: 600;
+	text-transform: uppercase;
+}
+.rowbackground {
+	background-color: #363636;
+	color: #FFFFFF;
+	padding: 10px 0px;
+}
+.button2{
+	background-color: transparent;
+	text-transform: uppercase;
+	color: #fff;
+	border: 2px solid #fff;
+	border-radius: 5px;
+}
+.navbar-brand
+{
+    position: absolute;
+    width: 100%;
+    left: 0;
+    text-align: center;
+    margin:0 auto;
+	background-color: #fff;
+	border: none;
+	color: #000;
+}
+.navbar-toggle {
+    z-index:3;
+}
+	@media (max-width:768px){
+		.navbar-brand{
+			position: absolute;
+			width: auto;
+			background-color: #fff;
+			border: none;
+			color: #000;
+			text-align: center;
+			align-content: center;
+		}
+	} 
+.navmenu{
+	background-color: #fff;
+	border: none;
+	font-weight: 500;
+	color: #000;
+	text-align: center;
+}
+#formulariocontacto{
+	padding-bottom: 20px;
+}
+
