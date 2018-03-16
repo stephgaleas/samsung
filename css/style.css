@@ -1,11 +1,12 @@
-@import url('https://fonts.googleapis.com/css?family=Montserrat:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i');
+@import url('https://fonts.googleapis.com/css?family=Muli:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i');
 body{
-	font-family:  'Montserrat', sans-serif;
+	font-family: 'Muli', sans-serif;
 	font-size: 14px;
 	color: #000000;
 }
 header{
 	padding: 20px 0px;
+	color: #000;
 }
 .boton{
 	position: relative;
@@ -27,7 +28,8 @@ h2{
 	text-transform: uppercase;
 	color: #000000;
 	border: 2px solid #000;
-	border-radius: 5px;
+	border-radius: 30px;
+	padding: 15px;
 	background-color: #e6e6e6;
 	
 }
@@ -35,11 +37,13 @@ h2{
 	text-transform: uppercase;
 	color: #000000;
 	border: 2px solid #000;
-	border-radius: 5px;
+	border-radius: 30px;
+	padding: 15px;
 }
 .unpacked{
 	background-color: #000000;
 	color: #FFFFFF;
+	padding-top: 10%;
 	
 }
 .buttonnegro{
@@ -47,7 +51,8 @@ h2{
 	background-color: #000000;
 	color: #FFFFFF;
 	border: 2px solid #fff;
-	border-radius: 5px;
+	border-radius: 30px;
+	padding: 15px;
 }
 h4{
 	font-weight: 600;
@@ -88,41 +93,65 @@ h5{
 	text-transform: uppercase;
 	color: #fff;
 	border: 2px solid #fff;
-	border-radius: 5px;
+	border-radius: 30px;
+	padding: 15px;
 }
-.navbar-brand
-{
-    position: absolute;
-    width: 100%;
-    left: 0;
-    text-align: center;
-    margin:0 auto;
-	background-color: #fff;
-	border: none;
-	color: #000;
-}
-.navbar-toggle {
-    z-index:3;
-}
-	@media (max-width:768px){
-		.navbar-brand{
-			position: absolute;
-			width: auto;
-			background-color: #fff;
-			border: none;
-			color: #000;
-			text-align: center;
-			align-content: center;
-		}
-	} 
-.navmenu{
-	background-color: #fff;
-	border: none;
-	font-weight: 500;
-	color: #000;
-	text-align: center;
-}
+
 #formulariocontacto{
 	padding-bottom: 20px;
 }
+.carousel-caption{
+	padding: 10%;
+}
+.hacer-por-ti{
+	position: relative;
+}
 
+.titulofotos{
+	font-size: 40px;
+	font-weight: 600;
+}
+.tituloinicio{
+	font-weight: 700;
+}
+.subtitulo{
+	font-size: 25px;
+	font-weight: 600;
+}
+#map{
+	width: 50%;
+	height: 300px;
+}
+#ubicacion{
+	padding-bottom: 50px;
+}
+.cuadro{
+	background-color: #e6e6e6;
+	text-align: center;
+	padding: 50px 10px 10px;
+}
+#smartphones{
+	padding: 0px 0px 100px;
+}
+#smartphone-para-ti{
+	background-color: #000;
+	
+}
+
+
+.navbar-brand {
+  left:calc(50% - 45px);
+  position: absolute;
+  padding: 11px 0px;
+
+}
+.navbar{
+	background-color: #fff;
+	color: #000;
+}
+#ayuda{
+	background-image: url(../img/latin-info-contactus-img-contact-background-desktop.jpeg);
+	width: 100%;
+	height: 300px;
+	color: #fff;
+}
