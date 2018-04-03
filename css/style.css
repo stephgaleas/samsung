@@ -8,9 +8,7 @@ header{
 	padding: 20px 0px;
 	color: #000;
 }
-.boton{
-	position: relative;
-}	
+	
 .productodescripcion{
 	align-content: center;
 	padding: 100px 0px 0px;
@@ -29,16 +27,32 @@ h2{
 	color: #000000;
 	border: 2px solid #000;
 	border-radius: 30px;
-	padding: 15px;
+	padding: 15px 20px;
 	background-color: #e6e6e6;
+	font-size: 12px;
+	letter-spacing: 1px;
+	font-weight: 700;
 	
+}
+.buttongris:hover{
+	background-color: #000;
+	color: #fff;
+	border: 2px solid #000;
 }
 .button{
 	text-transform: uppercase;
 	color: #000000;
 	border: 2px solid #000;
 	border-radius: 30px;
-	padding: 15px;
+	padding: 15px 20px;
+	font-size: 12px;
+	letter-spacing: 1px;
+	font-weight: 700;
+}
+.button:hover{
+	background-color: #000;
+	color: #fff;
+	border: 2px solid #000;
 }
 .unpacked{
 	background-color: #000000;
@@ -52,7 +66,15 @@ h2{
 	color: #FFFFFF;
 	border: 2px solid #fff;
 	border-radius: 30px;
-	padding: 15px;
+	padding: 15px 20px;
+	font-size: 12px;
+	letter-spacing: 1px;
+	font-weight: 700;
+}
+.buttonnegro:hover{
+	background-color: #FFFFFF;
+	color: #000;
+	border: 2px solid #fff;
 }
 h4{
 	font-weight: 600;
@@ -94,9 +116,16 @@ h5{
 	color: #fff;
 	border: 2px solid #fff;
 	border-radius: 30px;
-	padding: 15px;
+	padding: 15px 20px;
+	font-size: 12px;
+	letter-spacing: 1px;
+	font-weight: 700;
 }
-
+.button2:hover{
+	background-color: #fff;
+	color: #000;
+	border: 2px solid #fff;
+}
 #formulariocontacto{
 	padding-bottom: 20px;
 }
@@ -128,10 +157,13 @@ h5{
 .cuadro{
 	background-color: #e6e6e6;
 	text-align: center;
-	padding: 50px 10px 10px;
+	padding: 50px 10px 50px;
 }
 #smartphones{
-	padding: 0px 0px 100px;
+	padding: 50px 0px 100px;
+}
+#televisores{
+	padding: 50px 0px 100px;
 }
 #smartphone-para-ti{
 	background-color: #000;
@@ -157,4 +189,163 @@ h5{
 }
 .info-ubicacion{
 	padding-left: 25%;
+}
+ul.breadcrumb li {
+    display: inline;
+    font-size: 12px;
+	color: #606060;
+}
+ul.breadcrumb{
+	background-color: #fff;
+	border: solid 0.5px #e6e6e6;
+	color: #606060;
+	
+	padding: 20px 20px 10px;
+}
+ul.breadcrumb a{
+	color: #606060;
+	font-weight: 400;
+}
+.cuadrogaleria{
+	border: solid 0.5px #e6e6e6;
+}
+#navegacionuhd{
+	background-color: #000;
+	color: #fff;
+	text-transform: uppercase;
+	font-weight: 600;
+	padding: 10px 0px 2px;
+}
+#navegacionuhd a{
+	color: #fff;
+}
+.fondouhd{
+	background-color: #e6e6e6;
+}
+.info-uhd{
+	padding: 100px 50px;
+	color: #2C2C2C;
+	
+}
+.info-uhd h3{
+	font-weight: 700;
+}
+.button-info-uhd{
+	border: solid 2px #000;
+	border-radius: 0px;
+	text-align: center;
+	padding: 5px 20px;
+	width: 200px;
+}
+.button-info-uhd:hover{
+	border: solid 2px #000;
+	background-color: #e6e6e6;
+	border-radius: 0px;
+	text-align: center;
+	padding: 5px 20px;
+	width: 200px;
+}
+.button-comprar{
+	background-color: #14289F;
+	color: #fff;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	margin-top: 70px;
+	width: 410px;
+	border-radius: 30px;
+	border: none;
+	padding: 15px 0px;
+	font-weight: 700;
+	font-size: 14px;
+}
+.button-comprar:hover{
+	background-color: #0F1E77;
+	color: #fff;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	margin-top: 70px;
+	width: 410px;
+	border-radius: 30px;
+	border: none;
+	padding: 15px 0px;
+	font-weight: 700;
+	font-size: 14px;
+}
+.cuadrohighlights{
+	padding: 30px;
+	text-align: center;
+	color: #2C2C2C;
+	border-right: solid 1px #e6e6e6;
+	padding-right: 60px;
+}
+.cuadrohighlights2{
+	padding: 30px;
+	text-align: center;
+	color: #2C2C2C;
+	padding-right: 60px;
+}
+#innovacion p{
+	font-size: 10px;
+	padding: 20px 0px;
+	text-align: center;
+}
+#innovacion h2{
+	padding: 20px 0px;
+}
+#hdr1 p{
+	font-size: 10px;
+	padding: 20px 0px;
+	text-align: center;
+}
+#hdr1 h4{
+	text-transform: none;
+	text-align: center;
+}
+#hdr1 h2{
+	padding: 20px 0px;
+}
+#dynamic p{
+	font-size: 10px;
+	padding: 20px 0px;
+	text-align: center;
+}
+#dynamic h4{
+	text-transform: none;
+	text-align: center;
+	padding-bottom: 20px;
+}
+#dynamic h2{
+	padding: 20px 0px;
+}
+
+#control-remoto p{
+	font-size: 10px;
+	padding: 20px 0px;
+	text-align: center;
+}
+#control-remoto h4{
+	text-transform: none;
+	text-align: center;
+	padding-bottom: 20px;
+}
+#control-remoto h2{
+	padding: 20px 0px;
+}
+#specs{
+	
+	padding: 50px 0px;
+	text-align: center;
+}
+#specs h2{
+	padding-bottom: 50px;
+}
+#soporte{
+	background-color: #000;
+	padding: 50px 0px;
+	text-align: center;
+	color: #fff;
+}
+#soporte h3{
+	font-weight: 700;
+	padding: 10px 0px 20px;
 }
